@@ -5,5 +5,8 @@ module.exports = {
     },
     env: {
       node: true,
-    }
+    },
+    rules: {
+        quotes: ['error', 'single', { avoidEscape: true }],
+    },
 };
